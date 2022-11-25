@@ -31,6 +31,8 @@ class Animal
             return m_id;
         }
 
+    // Քանի որ այս փոփոխականները հնարավոր է օգտագործվեն նաև ժառանգ ֆունկցիաներում,
+    // ճիշտ կլինի նրանց հայտարարել protected
     private:
        std::string m_name;
        int m_id;
